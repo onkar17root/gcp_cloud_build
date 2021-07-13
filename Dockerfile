@@ -2,7 +2,7 @@ FROM centos
 
 RUN  yum install httpd -y 
 
-COPY  index.html  /var/www/html
+COPY  *  /var/www/html
 
 WORKDIR  /var/www/html
 
